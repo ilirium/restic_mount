@@ -1,0 +1,7 @@
+address: "127.0.0.1"    # the bind address
+port: "8000"            # the listening port
+dir: "/root/mnt"        # the provided base dir
+prefix: "/webdav"       # the url-prefix of the original url
+users:
+  admin:                # with password 'foo' and access to '/home/webdav'
+    password: "$2a$10$DaWhagZaxWnWAOXY0a55.eaYccgtMOL3lGlqI3spqIBGyM0MD.EN6"
