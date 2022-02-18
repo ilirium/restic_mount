@@ -12,7 +12,7 @@ services:
       - RESTIC_REPOSITORY=/root/repo
       - RESTIC_PASSWORD
     ports:
-      - "8000:8000"
+      - "8888:8888"
     volumes:
       - cache:/root/.cache/restic
       - /Volumes/backup0/BackupRestic:/root/repo
